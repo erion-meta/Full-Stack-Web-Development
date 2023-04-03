@@ -1,0 +1,26 @@
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+body {
+  background-color: #AAC4FF;
+}
+
+table {
+  border-spacing: 10px;
+}
+
+h1 {
+  color: #364F6B;
+}
+
+h3 {
+  color: #364F6B;
+}
+.photoEr {
+  border-radius: 100%;
+}
