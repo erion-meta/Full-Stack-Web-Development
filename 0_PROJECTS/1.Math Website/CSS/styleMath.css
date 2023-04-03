@@ -1,0 +1,143 @@
+.container {
+  width: 1050px;
+  margin: 0 auto ;
+}
+
+.Titt {
+  font-size: 50px;
+  font-weight: 100;
+  color: #E26868;
+  text-decoration: none;
+
+}
+.searchBox {
+  float: right;
+  background: #DFD3C3;
+  width: 400px;
+  height: 50px;
+  padding: 20px 20px 0 20px;
+  margin-top: 20px;
+}
+.brand {
+  float: left;
+}
+.header {
+  height: 100px;
+  padding: 10px 0;
+}
+.text {
+  float: left;
+  width: 200px;
+  padding: 5px;
+  font-size: 15px;
+  color: #FF731D;
+  background: white url(../Images/search.png) right center no-repeat;
+}
+.submit {
+  float: right;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+  background: #8BBCCC;
+  font-size: 15px;
+}
+.clear {
+  clear: both;
+}
+ul {
+  list-style: none;
+}
+.menu ul li {
+  float: left;
+  padding: 0 30px;
+  height: 30px;
+  border-right: 1px solid #3C4048;
+}
+.menu {
+  height: 70px;
+  background: #FF8787;
+  padding: 7px 0;
+}
+.menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #3C4048;
+  line-height: 30px;
+  transition: font-size 0.3s ease;
+}
+.menu ul li:last-child {
+  border-right: none;
+}
+.menu ul li a:hover, .menu ul li a.active{
+  font-size: 20px;
+  font-weight: bold;
+  color: #EA047E;
+}
+.introduction{
+  background: linear-gradient(#2192FF, #FF74B1);
+  padding: 30px;
+  margin: 17px 0;
+}
+.introduction h3 {
+  font-size: 45px;
+  color: #FFF8EA;
+  font-weight: normal;
+}
+.introduction p{
+  font-size: 25px;
+  color: #D8D9CF;
+  text-align: justify;
+}
+.sideBar {
+  width: 450px;
+  height: 500px;
+  border: 1px solid #FF8787;
+  border-radius: 20px;
+  padding: 10px 30px;
+  border-width: medium;
+}
+.sideBar h3 {
+  color: #002E94;
+  font-size: 30px;
+}
+.sideBar ul {
+  padding-top: 8px;
+}
+#leftSide ul li {
+  padding: 4px 0 4px 10px;
+}
+#rightSide ul li {
+  padding: 17px 0 17px 70px;
+}
+.sideBar ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #3C4048;
+  transition: font-size 0.3s ease;
+}
+.sideBar ul li a:hover, .sideBar ul li a.active{
+    text-decoration: none;
+    color: #B314DB;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#leftSide {
+  float: left;
+}
+#rightSide {
+  float: right;
+}
+.footer{
+    height: 60px;
+    background: linear-gradient(#F6F390, #D5D533);
+    padding: 10px 30px;
+    margin-top: 15px
+}
+.footer p {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: monospace;
+}
