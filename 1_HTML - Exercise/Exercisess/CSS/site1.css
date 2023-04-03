@@ -1,0 +1,70 @@
+
+a {
+  color: white;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #F8EDE3;
+  margin: 0;
+}
+
+.bottom {
+  border-spacing: 10px;
+  background-color: #181818;
+  font-size: 20px;
+  width: 100%;
+}
+
+.brenda {
+  border-spacing: 10px;
+}
+
+.heading {
+  border-spacing: 15px;
+  background-color: #D72323;
+  font-size: 20px;
+  width: 100%;
+}
+
+.titull {
+  font-size: 60px;
+  font-family: ui-serif;
+}
+
+.nentitulli {
+  font-size: 50px;
+  font-weight: 700;
+  color: #F77E21;
+}
+
+p {
+  font-size: 20px;
+}
+
+.logo {
+  border-spacing: 15px;
+  border-style: inset;
+}
+
+#Trofe {
+  font-size: 35px;
+}
+
+#lista {
+  font-size: 20px;
+  font-weight: 550;
+  border-spacing: 10px;
+}
+
+#hist {
+  font-size: 30px;
+}
+
+#logo{
+  font-size: 30px;
+}
+
+#stadiumi{
+  font-size: 30px;
+}

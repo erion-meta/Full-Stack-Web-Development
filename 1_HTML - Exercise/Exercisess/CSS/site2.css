@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  background-color: #F8EDE3;
+}
+
+a {
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.topContainer {
+  background-color: #D72323;
+  width: 100%;
+  height: 150px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.LogoDiv {
+  width: 120px;
+  height: 100px;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+.LogoDiv img {
+  width: 100%;
+  height: 100%;
+}
+
+.seriaDiv {
+  width: 65px;
+  height: 20px;
+  position: absolute;
+  top: 60px;
+  left: 250px;
+}
+
+.CoppaItaliaDiv {
+  width: 107px;
+  height: 20px;
+  position: absolute;
+  top: 60px;
+  left: 400px;
+}
+
+.SuperCoppaDiv {
+  width: 183px;
+  height: 20px;
+  position: absolute;
+  top: 60px;
+  left: 600px;
+}
+
+.UCLDiv {
+  width: 231px;
+  height: 20px;
+  position: absolute;
+  top: 60px;
+  left: 900px;
+}
+
+.NewsDiv {
+  width: 180px;
+  height: 20px;
+  position: absolute;
+  top: 60px;
+  left: 1270px;
+}
+
+.BottomContainer {
+  background-color: #181818;
+  width: 100%;
+  height: 150px;
+  padding: 0;
+  font-size: 20px;
+  margin-top: 30px;
+  position: absolute;
+}
+
+.LogoDiv2 {
+  width: 120px;
+  height: 100px;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+.LogoDiv2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.seriaDiv2 {
+  width: 65px;
+  height: 20px;
+  position: absolute;
+  bottom: 60px;
+  left: 250px;
+}
+
+.CoppaItaliaDiv2 {
+  width: 107px;
+  height: 20px;
+  position: absolute;
+  bottom: 60px;
+  left: 400px;
+}
+
+.SuperCoppaDiv2 {
+  width: 183px;
+  height: 20px;
+  position: absolute;
+  bottom: 60px;
+  left: 600px;
+}
+
+.UCLDiv2 {
+  width: 231px;
+  height: 20px;
+  position: absolute;
+  bottom: 60px;
+  left: 900px;
+}
+
+.NewsDiv2 {
+  width: 180px;
+  height: 20px;
+  position: absolute;
+  bottom: 60px;
+  left: 1270px;
+}
+
+
+.middleContainer {
+  width: 100%;
+  position: relative;
+}
+
+.Titulli {
+  width: 100%;
+  height: 100%;
+}
+.ACDiv {
+  width: 400px;
+  height: 60px;
+  margin: auto;
+}
+.lavdiDiv {
+  width: 650px;
+  height: 50px;
+  margin: auto;
+}
+.AC{
+  font-size: 60px;
+  font-family: ui-serif;
+}
+.lavdi {
+  font-size: 50px;
+  font-weight: 700;
+  color: #F77E21;
+}
+
+.historia{
+  width: 800px;
+  font-size: 20px;
+  padding-top: 50px;
+  margin-left: 15px;
+}
+.logo {
+  border-spacing: 20px;
+  border-style: inset;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.trophy {
+  position: absolute;
+  top: 200px;
+  right: 200px;
+}
+#lista {
+  font-size: 20px;
+  font-weight: 550;
+  border-spacing: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+#Trofe {
+  font-size: 35px;
+}
