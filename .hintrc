@@ -5,6 +5,10 @@
   "hints": {
     "highest-available-document-mode": "off",
     "meta-viewport": "off",
-    "axe/keyboard": "off"
+    "axe/keyboard": "off",
+    "no-inline-styles": "off",
+    "detect-css-reflows/composite": "off",
+    "detect-css-reflows/paint": "off",
+    "detect-css-reflows/layout": "off"
   }
 }
