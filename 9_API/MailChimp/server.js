@@ -30,20 +30,32 @@ app.post("/", (req, res) => {
   };
 
   const run = async () => {
-    const response = await client.lists.addListMember(listId, {
-      email_address: subscribingUser.email,
-      status: "subscribed",
-      merge_fields: {
-        FNAME: subscribingUser.firstName,
-        LNAME: subscribingUser.lastName,
-      },
-    });
+    try {
+      const response = await client.lists.addListMember(listId, {
+        email_address: subscribingUser.email,
+        status: "subscribed",
+        merge_fields: {
+          FNAME: subscribingUser.firstName,
+          LNAME: subscribingUser.lastName,
+        },
+      });
+
+      console.log(response);
+      res.sendFile(__dirname + "/success.html");
+    } catch (error) {
+      console.log(error.status);
+      res.sendFile(__dirname + "/failure.html");
+    }
   };
 
   console.log(firstName, lastName, email);
 
   run();
-  res.send("Data posted to Mailchimp servers.");
+  // res.send("Data posted to Mailchimp servers.");
+});
+
+app.post("/failure", function (req, res) {
+  res.redirect("/");
 });
 
 app.listen(3000, () => {
