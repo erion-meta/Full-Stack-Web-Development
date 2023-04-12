@@ -4,12 +4,12 @@ const bodyParser = require("body-parser");
 const app = express();
 
 // variables
-let items = ["sleep", "eat", "pray"];
+let items = ["Sleep", "Eat", "Pray"];
 
 app.set("view engine", "ejs");
 
 app.use(bodyParser.urlencoded({ extended: true }));
-// app.use("/public", express.static("public"));
+app.use("/css", express.static("css"));
 
 app.get("/", (req, res) => {
   let today = new Date();
