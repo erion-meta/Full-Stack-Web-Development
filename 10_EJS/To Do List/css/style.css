@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Anuphan:wght@300;400;500;600&display=swap");
-
+* {
+  margin: 0;
+  padding: 0;
+}
 html {
-  /* background-color: #eae9fd;
-  background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #eae9fd 50%); */
   background: #a683e3;
   background: -webkit-linear-gradient(69deg, #a683e3 0%, #eae9fd 100%);
   background: linear-gradient(69deg, #a683e3 0%, #eae9fd 100%);
