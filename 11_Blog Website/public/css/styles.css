@@ -3,10 +3,10 @@
   padding: 0;
 }
 
-/* body {
-  height: auto;
+body {
   position: relative;
-} */
+  min-height: 100vh;
+}
 
 .container-fluid {
   padding: 10px 100px;
@@ -31,8 +31,8 @@
 
 .footer {
   position: absolute;
+  bottom: 0; /* Position the footer at the bottom of the viewport */
   text-align: center;
-  bottom: 0;
   width: 100%;
   height: 60px;
   background-color: #1abc9c;
