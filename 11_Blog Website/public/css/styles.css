@@ -3,10 +3,10 @@
   padding: 0;
 }
 
-body {
-  height: 700px;
+/* body {
+  height: auto;
   position: relative;
-}
+} */
 
 .container-fluid {
   padding: 10px 100px;

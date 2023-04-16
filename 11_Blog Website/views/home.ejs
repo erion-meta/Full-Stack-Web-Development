@@ -2,7 +2,14 @@
 
 <h1>Home</h1>
 <p><%= startingContent %></p>
-
 <% console.log(blogPost) %>
+
+<% for(let i=0; i<blogPost.length; i++){  %>
+    <div class="blog-post">
+        <h2> <%= blogPost[i].postTitle %> </h2>
+        <p> <%= blogPost[i].postBody%> </p>
+    </div>
+  
+<%  } %>
 
 <%- include("partials/footer") %>
