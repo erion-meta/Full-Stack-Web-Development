@@ -2,7 +2,8 @@
 
 const express = require("express");
 const bodyParser = require("body-parser");
-// const ejs = require("ejs");
+const _ = require("lodash");
+const ejs = require("ejs");
 
 const app = express();
 app.set("view engine", "ejs");
@@ -46,6 +47,18 @@ app.post("/compose", (req, res) => {
 
   posts.push(post);
   res.redirect("/");
+});
+
+app.get("/posts/:postName", (req, res) => {
+  let reqTitle = _.kebabCase(req.params.postTitle);
+
+  posts.forEach(function (post) {
+    let exsitTitle = _.kebabCase(post.title);
+
+    if (reqTitle === exsitTitle) {
+      res.render("post", { title1: post.postTitle, body1: post.postBody });
+    }
+  });
 });
 
 app.listen(3000, function () {
