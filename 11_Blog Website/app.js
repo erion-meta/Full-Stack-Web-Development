@@ -50,13 +50,16 @@ app.post("/compose", (req, res) => {
 });
 
 app.get("/posts/:postName", (req, res) => {
-  let reqTitle = _.kebabCase(req.params.postTitle);
+  let reqTitle = _.kebabCase(req.params.postName);
 
   posts.forEach(function (post) {
-    let exsitTitle = _.kebabCase(post.title);
+    let storedTitle = _.kebabCase(post.postTitle);
 
-    if (reqTitle === exsitTitle) {
-      res.render("post", { title1: post.postTitle, body1: post.postBody });
+    if (reqTitle === storedTitle) {
+      res.render("post", {
+        title: post.postTitle,
+        body: post.postBody,
+      });
     }
   });
 });
