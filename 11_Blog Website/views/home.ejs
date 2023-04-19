@@ -6,7 +6,7 @@
 <% for(let i=0; i<blogPost.length; i++){  %>
     <div class="blog-post">
         <h2> <%= blogPost[i].postTitle %> </h2>
-        <p> <%= blogPost[i].postBody.substring(0,100)%> </p>
+        <p> <%= blogPost[i].postBody.substring(0,100)+"..."%> <a href="/posts/<%= blogPost[i].postTitle %>">Read More</a> </p>
     </div>
   
 <%  } %>
